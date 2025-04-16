@@ -1,0 +1,45 @@
+.first{                                                                                                                                                        
+    max-width: 350px;                                                                                                                                      
+    margin: auto;                                                                                                                                          
+    text-align: left;                                                                                                                                      
+                                                                                                                                                               
+    input{                                                                                                                                                 
+        width:auto ;                                                                                                                                  
+    }                                                                                                                                                      
+}                                                                                                                                                              
+                                                                                                                                                               
+.second{                                                                                                                                                       
+    max-width: 1200px;                                                                                                                                     
+    margin: auto;                                                                                                                                          
+    text-align: left;                                                                                                                                      
+}                                                                                                                                                              
+                                                                                                                                                               
+.third{                                                                                                                                                        
+    input[type=text] {                                                                                                                                     
+            border: none;                                                                                                                                  
+            border-bottom: 1px solid black;                                                                                                                                                                                                                                                  
+        }                                                                                                                                                      
+}                                                                                                                                                              
+                                                                                                                                                               
+.fourth{                                                                                                                                                       
+    width:100%;                                                                                                                                            
+}                                                                                                                                                              
+                                                                                                                                                               
+h2{                                                                                                                                                            
+    text-align: center;                                                                                                                                    
+}                                                                                                                                                              
+small{                                                                                                                                                         
+    font-size: 10;                                                                                                                                         
+}                                                                                                                                                              
+                                                                                                                                                               
+table{                                                                                                                                                         
+    max-width: max-content;                                                                                                                                
+}                                                                                                                                                              
+table, th, td {                                                                                                                                                
+    border: 1px solid black;                                                                                                                               
+    border-collapse: collapse;                                                                                                                             
+    input[type=text] {                                                                                                                                     
+            border: none;                                                                                                                                  
+            width:95%;                                                                                                                                    
+    }                                                                                                                                                      
+}                                                                                                                                                       

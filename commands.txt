@@ -1,0 +1,28 @@
+MongoDB INSTALL                                                                                                                                                
+   - curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc -o mongodb-server-7.0.asc                                                                    
+   - sudo gpg --dearmor -o /usr/share/keyrings/mongodb-server-7.0.gpg mongodb-server-7.0.asc                                                                   
+   - echo "deb [signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg] https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/7.0 multiverse" | sudo
+ tee /etc/apt/sources.list.d/mongodb-org-7                                                                                                                     
+   - sudo apt install mongodb-org                                                                                                                              
+
+   or
+                                                                                                                                                             
+   - wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | sudo tee /usr/share/keyrings/mongodb-server-7.0.gpg                                        
+   - echo &quot;deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ]                                                                  
+   - https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/7.0 multiverse&quot; | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list           
+   -  sudo apt-get install mongodb-org                                                                                                                         
+                                                                                                                                                               
+                                                                                                                                                               
+Node                                                                                                                                                           
+   - curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -(maybe needed)                                                                            
+   - sudo apt install nodejs                                                                                                                                   
+   - nodejs --version                                                                                                                                          
+   - npm --version                                                                                                                                             
+                                                                                                                                                               
+Angular                                                                                                                                                        
+   - sudo npm install -g @angular/cli                                                                                                                          
+   - ng new frontend(some other is fine)                                                                                                                       
+                                                                                                                                                               
+Express                                                                                                                                                        
+   - npm init -y                                                                                                                                               
+   - npm install express                                                                                                                                       

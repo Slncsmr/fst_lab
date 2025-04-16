@@ -1,0 +1,17 @@
+{
+    "Lab1":
+    {   "Day" : "Monday",
+        "Time":"FN",
+        "Subject" :"FST"
+    },
+    "Lab2":
+    {   "Day" : "Monday",
+        "Time":"AN",
+        "Subject" :"Free"
+    },
+    "Lab3":
+    {   "Day" : "Tuesday",
+        "Time":"FN",
+        "Subject" :"CA"
+    }
+}

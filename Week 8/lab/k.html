@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="fetchlab1()" name="Lab1" id="Lab1">Lab1</button>
+    <button onclick="fetchlab2()" name="Lab2" id="Lab2">Lab2</button>
+    <button onclick="fetchlab3()" name="Lab3" id="Lab3">Lab3</button>
+    <script>
+        async function fetchlab1() 
+        {
+            const response = await fetch('/lab1');
+            
+        }
+        async function fetchlab2() 
+        {
+            const response = await fetch('/lab2');
+        }
+        async function fetchlab3() 
+        {
+            const response = await fetch('/lab3');
+        }
+    </script>
+</body>
+</html>

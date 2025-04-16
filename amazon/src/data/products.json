@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "Grinder",
+      "description": "Grinder - 5 Year Warranty",
+      "price": 2999,
+      "image": "/images/download.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Ceiling Fan",
+      "description": "Ceiling Fan - 24 Months Warranty",
+      "price": 1299,
+      "image": "/images/download (1).jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Sandwich Maker",
+      "description": "Sandwich Maker - 30 Months Warranty",
+      "price": 899,
+      "image": "/images/sandwich.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Stationaries Pack",
+      "description": "Stationaries Pack",
+      "price": 200,
+      "image": "/images/stat.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Furniture Set",
+      "description": "Furniture Set",
+      "price": 20000,
+      "image": "/images/chair.jpeg"
+    }
+  ]
